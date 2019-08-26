@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b294f4a6-af33-4beb-b34f-86806cd562d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java_course.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter2/GrossPayCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter2/MadLibs.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter3/DollarGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter3/GradeMessage.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter3/SalaryCalculator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter3/TestResults.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter4/AddNumbers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter4/Cashier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter4/GrossPayInputValidation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter4/LetterSearch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/java_course/chapter4/RollTheDieGame.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/GrossPayCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/MadLibs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/DollarGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/GradeMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/SalaryCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter3/TestResults.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/AddNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/Cashier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/GrossPayInputValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/LetterSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter4/RollTheDieGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter5/PhoneBillCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java_course/chapter4/RollTheDieGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java_course/chapter4/RollTheDieGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter5/PhoneBillCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter5/PhoneBillCalculator.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +39,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RollTheDieGame">
+  <component name="RunManager" selected="Application.PhoneBillCalculator">
     <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter4.AddNumbers" />
       <module name="java_course" />
@@ -90,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrossPayInputValidation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.GrossPayInputValidation" />
+    <configuration name="LetterSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter4.LetterSearch" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
@@ -103,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LetterSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter4.LetterSearch" />
+    <configuration name="PhoneBillCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter5.PhoneBillCalculator" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter4.*" />
+          <option name="PATTERN" value="chapter5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneBillCalculator" />
         <item itemvalue="Application.RollTheDieGame" />
         <item itemvalue="Application.LetterSearch" />
         <item itemvalue="Application.Cashier" />
         <item itemvalue="Application.AddNumbers" />
-        <item itemvalue="Application.GrossPayInputValidation" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +133,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
