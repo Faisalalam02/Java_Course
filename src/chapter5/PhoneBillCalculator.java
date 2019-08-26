@@ -14,22 +14,16 @@ public class PhoneBillCalculator {
         double planFee = scanner.nextDouble();
         System.out.println("Please enter number of overage minutes");
         double overageMinutes = scanner.nextDouble();
-
+        scanner.close();
         // calling  overagefeeCalculation
-        double overageTotal = overagefeeCalculation(overageMinutes);
+        double overageTotal1 = overagefeeCalculation(overageMinutes);
 
         // calling tax calculation method
-        double calculatedTax = taxCalculation(planFee, overageTotal);
+        double calculatedTax = taxCalculation(planFee, overageTotal1);
 
         // calling totalBill method
-        double totalBill = totalBill(planFee, overageTotal, calculatedTax);
-        scanner.close();
+         totalBill(planFee, overageTotal1, calculatedTax);
 
-        System.out.println("Phone bill statement.");
-        System.out.println("Plan: $" + planFee);
-        System.out.println("Overage: $" + overageMinutes);
-        System.out.println(String.format("Tax: $%.2f" , calculatedTax));
-        System.out.println(String.format("Total Bill: $%.2f" , totalBill));
     }
 
     public static double overagefeeCalculation(double overageMinutes1)
@@ -43,9 +37,14 @@ public class PhoneBillCalculator {
            double totalTax =  (planFee1 + overageTotal1) * taxRate;
            return totalTax;
     }
-    public static double totalBill (double planFee2, double overagetotal2 , double calculatedTax1)
+    public static void totalBill (double planFee2, double overagetotal2 , double calculatedTax1)
     {
         double billtotal = planFee2 + overagetotal2 + calculatedTax1;
-        return billtotal;
+        System.out.println("Phone bill statement.");
+        System.out.println("Plan: $" + planFee2);
+        System.out.println("Overage: $" + overagetotal2);
+        System.out.println(String.format("Tax: $%.2f" , calculatedTax1));
+        System.out.println(String.format("Total Bill: $%.2f" , billtotal));
+
     }
 }
