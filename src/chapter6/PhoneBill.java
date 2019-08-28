@@ -21,8 +21,9 @@ public class PhoneBill {
         allottedMinutes = 800 ;
         minutesUsed = 800 ;
     }
-    public PhoneBill(int id, double taxRate, double baseCost, double allottedMinutes, double minutesUsed){
+    public PhoneBill(int id, double baseCost, double allottedMinutes, double minutesUsed){
 
+        this.id = id;
         this.baseCost = baseCost;
         this.allottedMinutes = allottedMinutes;
         this.minutesUsed = minutesUsed;
