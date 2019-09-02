@@ -2,8 +2,8 @@ package chapter9;
 
 public class Cake {
 
-    protected String flavor;
-    protected double price;
+    private String flavor;
+    private double price;
 
     public Cake(String flavor)
     {

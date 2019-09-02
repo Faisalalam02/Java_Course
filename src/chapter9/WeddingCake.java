@@ -2,7 +2,7 @@ package chapter9;
 
 public class WeddingCake extends Cake {
 
-    protected int tiers;
+    private int tiers;
 
     public WeddingCake()
     {

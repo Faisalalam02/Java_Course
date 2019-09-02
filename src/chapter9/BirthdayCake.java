@@ -1,10 +1,9 @@
 package chapter9;
 
-import javax.xml.namespace.QName;
 
 public class BirthdayCake extends Cake {
 
-    protected double candles;
+    private double candles;
 
     public BirthdayCake()
     {
