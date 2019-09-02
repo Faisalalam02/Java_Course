@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b294f4a6-af33-4beb-b34f-86806cd562d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter9/BirthdayCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/Cake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/TasteTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter9/WeddingCake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Banana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter10/Market.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +41,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TasteTester">
+  <component name="RunManager" selected="Application.Market">
     <configuration name="DayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter7.DayOfTheWeek" />
       <module name="java_course" />
@@ -55,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter8.PasswordValidator" />
+    <configuration name="Market" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter10.Market" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter8.*" />
+          <option name="PATTERN" value="chapter10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneBillCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter5.PhoneBillCalculator" />
+    <configuration name="PasswordValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter8.PasswordValidator" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter5.*" />
+          <option name="PATTERN" value="chapter8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Market" />
         <item itemvalue="Application.TasteTester" />
         <item itemvalue="Application.PasswordValidator" />
         <item itemvalue="Application.DayOfTheWeek" />
         <item itemvalue="Application.PhoneBillPrint" />
-        <item itemvalue="Application.PhoneBillCalculator" />
       </list>
     </recent_temporary>
   </component>
