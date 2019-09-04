@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b294f4a6-af33-4beb-b34f-86806cd562d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter12/TestResults.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12/FinalGrades.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter12/TestResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter12/TestResults.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,13 +39,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Farm">
-    <configuration name="DayOfTheWeek" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter7.DayOfTheWeek" />
+  <component name="RunManager" selected="Application.FinalGrades">
+    <configuration name="Farm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter11.Farm" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter7.*" />
+          <option name="PATTERN" value="chapter11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -52,12 +53,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Farm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter11.Farm" />
+    <configuration name="FinalGrades" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.FinalGrades" />
       <module name="java_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter11.*" />
+          <option name="PATTERN" value="chapter12.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FinalGrades" />
         <item itemvalue="Application.Farm" />
         <item itemvalue="Application.Market" />
         <item itemvalue="Application.TasteTester" />
         <item itemvalue="Application.PasswordValidator" />
-        <item itemvalue="Application.DayOfTheWeek" />
       </list>
     </recent_temporary>
   </component>

@@ -7,7 +7,7 @@ public class TestResults {
 
     public static Map getOriginalGrades(){
 
-        Map grades = new HashMap();
+        Map<String , Integer> grades = new HashMap();
         grades.put("Angie", 24);
         grades.put("Dave", 32);
         grades.put("Lisi", 80);
@@ -25,7 +25,7 @@ public class TestResults {
 
     public static Map getMakeUpGrades(){
 
-        Map grades = new HashMap();
+        Map<String , Integer> grades = new HashMap();
         grades.put("Angie", 97);
         grades.put("Dave", 82);
         grades.put("Lisi", 76);
